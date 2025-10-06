@@ -1,4 +1,220 @@
-/* ===== 
-Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-===== */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Orbitron:wght@600&family=Parkinsans:wght@300..800&family=Stardos+Stencil:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16 px;
+}
+
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 37rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightyellow;
+}
+
+.website {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color:deeppink;
+  display: inline-block;
+  border: 2px solid green;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+  font-family: "Stardos Stencil", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-style: normal;
+  text-align: center;
+  color: green;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 0px;
+  font-family: "Parkinsans", sans-serif;
+  font-size: 1 rem;
+  color: #333;
+  align-items: center; 
+}
+
+.tags li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tags li button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  background-color: rgb(131, 253, 188);
+  border: 1px solid rgb(3, 106, 17);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h5{
+  font-family: "Parkinsans", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: auto;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+time {
+  border-left: 2px solid black;
+  padding-left: 4px;
+}
+
+aside {
+    background: #b45e03d9;
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0px;
+}
+
+aside h4 {
+    font-family: "Parkinsans",sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+aside h5 {
+    font-family: "Parkinsans", sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    border-bottom: 2px solid #ffffff;
+    margin: auto;
+}
+
+aside p {
+    font-family: "Parkinsans", sans-serif;
+    line-height: 1.2;
+    font-size: 0.9rem;
+}
+
+p{
+  font-family: "Parkinsans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+p span {
+  font-family: "Parkinsans", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+section p {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+  color: #b45f03;
+}
+
+blockquote p {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color:rgb(71, 5, 71);
+  color: white;
+  border-radius: 0;
+  padding: 1em;
+  max-width: 600px; 
+  margin: auto;
+}
+
+blockquote p + blockquote p {
+    margin-top: 0;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    color: #b45f03;
+}
+
+.questions {
+    list-style: none;
+    font-family: "Parkinsans", sans-serif;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    margin: 20px;
+    padding: 6px 4px;
+    font-size: 1.3rem;
+}
+
+.questions li {
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 10px;
+}
+
+.questions li::before {
+    content: "🤔";
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 1.2em;
+}
+
+a {
+    color: rgb(244, 194, 102);
+}
+
+.resources {
+    list-style: none;
+    border: 2px solid black;
+    background-color: rgba(83, 4, 105, 0.615);
+    color: white;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+p {
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+figure {
+    max-width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    font-family: "Parkinsans", sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 0.875rem;
+    border-bottom: 1px solid black;
+}
