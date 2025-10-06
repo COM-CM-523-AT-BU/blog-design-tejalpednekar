@@ -178,6 +178,10 @@ h2 {
     font-size: 1.2em;
 }
 
+a {
+    color: rgb(244, 194, 102);
+}
+
 .resources {
     list-style: none;
     border: 2px solid black;
