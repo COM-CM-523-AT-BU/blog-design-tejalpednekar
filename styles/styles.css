@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,900&family=Orbitron:wght@600&family=Peralta&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Orbitron:wght@600&family=Parkinsans:wght@300..800&family=Stardos+Stencil:wght@400;700&display=swap');
 
 html {
     box-sizing: border-box;
@@ -15,8 +15,8 @@ body {
 }
 
 .website {
-  font-family: "Big Shoulders Inline";
-  font-weight: 900;
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
   color:deeppink;
   display: inline-block;
@@ -30,12 +30,12 @@ body {
 }
 
 h1 {
-  font-family: "Peralta", sans-serif;
+  font-family: "Stardos Stencil", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
   font-style: normal;
   text-align: center;
-  color: darkblue;
+  color: green;
 }
 
 .tags {
@@ -44,7 +44,7 @@ h1 {
   flex-wrap: wrap;
   gap: 12px 20px;
   padding: 0px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   font-size: 1 rem;
   color: #333;
   align-items: center; 
@@ -61,15 +61,17 @@ h1 {
 }
 
 .tags li button {
-  background-color:;
-  border: 2px solid green;
-  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  background-color: rgb(131, 253, 188);
+  border: 1px solid rgb(3, 106, 17);
+  padding: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 h5{
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   margin-top: auto;
@@ -79,78 +81,82 @@ h5{
 
 time {
   border-left: 2px solid black;
-  padding-left: 6px;
+  padding-left: 4px;
 }
 
 aside {
-    background-color: lightpink;
-    padding: 5px;
+    background: #b45e03d9;
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
     margin: 20px 0;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 aside h4 {
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 1.4rem;
+    font-family: "Parkinsans",sans-serif;
+    color: white;
+    font-size: 1.2rem;
     margin: 0;
 }
 
 aside h5 {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Parkinsans", sans-serif;
+    color: #ffffff;
     font-size: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #ffffff;
     margin: auto;
 }
 
 aside p {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Parkinsans", sans-serif;
     line-height: 1.2;
-}
-
-h2{
-    font-family: 
+    font-size: 0.9rem;
 }
 
 p{
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   font-size: 1.1rem;
   line-height: 2;
 }
 
 p span {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   color: black;
-  font-style: italic;
+  font-weight: bold;
 }
 
 section p {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   font-size: 1.2rem;
-  color: darkgreen
+  color: #b45f03;
 }
 
-blockquote {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 2rem;
-  font-style: italic;
-  border-left: 10px solid purple;
-  border-radius: 6px;
-  padding: 0.25em;
-  background-color: rgb(248, 197, 248);
-  margin: 2rem auto;
+blockquote p {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color:rgb(71, 5, 71);
+  color: white;
+  border-radius: 0;
+  padding: 1em;
   max-width: 600px; 
+  margin: auto;
+}
+
+blockquote p + blockquote p {
+    margin-top: 0;
 }
 
 h2 {
     font-family: "Orbitron", sans-serif;
     font-weight: 400;
-    color: darkblue;
+    color: #b45f03;
 }
 
 .questions {
     list-style: none;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Parkinsans", sans-serif;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
     margin: 20px;
@@ -174,18 +180,21 @@ h2 {
 
 .resources {
     list-style: none;
-    background-color: rgb(182, 240, 206);
-    font-family: "Space Grotesk", sans-serif;
+    border: 2px solid black;
+    background-color: rgba(83, 4, 105, 0.615);
+    color: white;
+    font-family: "Parkinsans", sans-serif;
     font-size: 1.3rem;
     padding: 10px;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 0;
 }
 
 img {
     display: block;
     width: 100%;
     height: auto;
+    border: 1px solid black;
 }
 
 p {
@@ -199,6 +208,7 @@ figure {
 }
 
 figcaption {
+    font-family: "Parkinsans", sans-serif;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 0.875rem;
